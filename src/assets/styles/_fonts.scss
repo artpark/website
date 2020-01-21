@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap');
+
+.header-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: $color1;
+
+  margin: 0px;
+}
+
+.footer-font {
+  @extend .header-font;
+}

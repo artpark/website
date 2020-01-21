@@ -1,0 +1,51 @@
+.header {
+  background: $color5;
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+  @keyframes fadeIn {
+    0% {
+      color: $color5;
+    }
+    100% {
+      color: $color1;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      color: $color5;
+    }
+    100% {
+      color: $color1;
+    }
+  }
+
+  .name {
+    animation: fadeOut 0.75s;
+    &:hover {
+      animation: fadeIn 0.75s;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+
+    .ant-menu {
+      border-bottom: 0px;
+      background: rgba(0, 0, 0, 0);
+      .ant-menu-item-active,
+      .ant-menu-item-selected {
+        border-color: $color1;
+      }
+    }
+
+    li {
+      margin-left: 25px;
+    }
+  }
+}
