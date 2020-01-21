@@ -8,17 +8,7 @@ import meme from '../../assets/images/profile-picture.png'
 const LandingPage = () => {
   return (
     <Layout.Content className="content">
-      <div className="landing-container">
-        <Carousel adaptiveHeight={true} centerMode={true} draggable={true}>
-          <div>
-            <img className="image" src={satang}></img>
-            <h1> hi </h1>
-          </div>
-          <div>
-            <img className="image" src={forest}></img>
-          </div>
-        </Carousel>
-      </div>
+      <div className="banner-container"></div>
       <div className="projects-container">
         <Row gutter={[25, 25]}>
           <Col span={12}>
