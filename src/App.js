@@ -10,6 +10,7 @@ import LandingPage from './pages/LandingPage/LandingPage'
 import AboutPage from './pages/AboutPage/AboutPage'
 import ResumePage from './pages/ResumePage/ResumePage'
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
+import SpotifyPage from './pages/SpotifyPage/SpotifyPage'
 
 const navBarMenuItems = [
   <Menu.Item key="1">
@@ -54,6 +55,9 @@ const App = () => {
               </Route>
               <Route path="/projects">
                 <ProjectsPage />
+              </Route>
+              <Route path="/spotify">
+                <SpotifyPage />
               </Route>
             </Switch>
             <Footer />
