@@ -1,10 +1,11 @@
 .header {
-  background: $color5;
   display: flex;
   justify-content: space-between;
 
   padding-left: 25px;
   padding-right: 25px;
+
+  background: $color5;
 
   @keyframes fadeIn {
     0% {
@@ -48,6 +49,19 @@
       margin-left: 25px;
     }
   }
+  #sider-toggle-button {
+    color: $color1;
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.breakpoint__small-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .breakpoint__medium-up {

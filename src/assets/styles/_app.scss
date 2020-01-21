@@ -24,3 +24,15 @@
   height: 200vh;
   padding-bottom: $footer-height;
 }
+
+.navbar-responsive {
+  background: $color5;
+  .ant-menu {
+    border-bottom: 0px;
+    background: rgba(0, 0, 0, 0);
+    .ant-menu-item-active,
+    .ant-menu-item-selected {
+      border-color: $color1;
+    }
+  }
+}
