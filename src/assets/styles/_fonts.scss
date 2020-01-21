@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .header-font {
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 0.05em;
   text-align: center;
-  color: $color1;
+  color: $text1;
 
   margin: 0px;
 }

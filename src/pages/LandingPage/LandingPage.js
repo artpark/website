@@ -7,31 +7,21 @@ import meme from '../../assets/images/profile-picture.png'
 
 const LandingPage = () => {
   return (
-    <Layout.Content className="content">
-      <div className="banner-container"></div>
-      <div className="projects-container">
-        <Row gutter={[25, 25]}>
-          <Col span={12}>
-            <Card className="projects-card" title="Card title" bordered={false}>
-              Card content
-            </Card>
+    <Layout.Content className="landing-page-content">
+      <div className="banner-container">
+        <Row>
+          <Col span={10}>
+            <div className="image-container"></div>
           </Col>
-          <Col span={12}>
-            <Card className="projects-card" title="Card title" bordered={false}>
-              Card content
-            </Card>
-          </Col>
-        </Row>
-        <Row gutter={[25, 25]}>
-          <Col span={12}>
-            <Card className="projects-card" title="Card title" bordered={false}>
-              Card content
-            </Card>
-          </Col>
-          <Col span={12}>
-            <Card className="projects-card" title="Card title" bordered={false}>
-              Card content
-            </Card>
+          <Col span={14}>
+            <div className="banner-description-container">
+              <div className="text-float-left">
+                <h1>Hello!</h1>
+                <h2>
+                  I'm <span>Art Parkeenvincha</span>
+                </h2>
+              </div>
+            </div>
           </Col>
         </Row>
       </div>

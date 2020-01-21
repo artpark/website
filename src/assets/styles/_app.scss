@@ -1,10 +1,10 @@
 // .sider {
 //   height: 100vh;
-//   background: $color1;
+//   background: $text1;
 //   h1 {
 //     font-family: 'Montserrat', sans-serif;
 //     text-align: center;
-//     color: $color5;
+//     color: $page1;
 //     font-size: 22px;
 //   }
 // }
@@ -19,20 +19,14 @@
   min-height: 100vh;
 }
 
-.content {
-  background: $color5;
-  height: 200vh;
-  padding-bottom: $footer-height;
-}
-
 .navbar-responsive {
-  background: $color5;
+  background: $page1;
   .ant-menu {
     border-bottom: 0px;
     background: rgba(0, 0, 0, 0);
     .ant-menu-item-active,
     .ant-menu-item-selected {
-      border-color: $color1;
+      border-color: $text1;
     }
   }
 }

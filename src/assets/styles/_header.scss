@@ -5,23 +5,23 @@
   padding-left: 25px;
   padding-right: 25px;
 
-  background: $color5;
+  background: $page1;
 
   @keyframes fadeIn {
     0% {
-      color: $color5;
+      color: $page1;
     }
     100% {
-      color: $color1;
+      color: $text1;
     }
   }
 
   @keyframes fadeOut {
     0% {
-      color: $color5;
+      color: $page1;
     }
     100% {
-      color: $color1;
+      color: $text1;
     }
   }
 
@@ -41,7 +41,8 @@
       background: rgba(0, 0, 0, 0);
       .ant-menu-item-active,
       .ant-menu-item-selected {
-        border-color: $color1;
+        color: $text2;
+        border-color: $text2;
       }
     }
 
@@ -50,7 +51,7 @@
     }
   }
   #sider-toggle-button {
-    color: $color1;
+    color: $text1;
     svg {
       width: 32px;
       height: 32px;

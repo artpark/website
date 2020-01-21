@@ -5,10 +5,17 @@ const SpotifyPage = () => {
   const [songCovers, setSongCovers] = useState([])
 
   useEffect(() => {
+    const client_id = 'be30a1ed57db437d910240e2f2685bc1'
+    var key = ''
+    axios
+      .get(`https://accounts.spotify.com/authorize?client_id=${client_id}`)
+      .then(res => console.log(res))
+
     axios
       .get('https://api.spotify.com/v1/playlists/1bcLTiVH5kKW8dCZyxYl7w', {
         headers: {
-          Authorization: '',
+          Authorization:
+            'Bearer BQChwLm7Q-3rcxfhmz-P0t1sewlviMIJMx0h4wTQvXKyqv4wYVK2tdisOZzItvv5c3263sJBU2kT0boROhmRk3S-_uQKfBrhqI4_JIe1lVeOOs6zyz7oh5zsV-MGuo5XOjsFuzWv0hT2_fE',
         },
       })
       .then(res => {
