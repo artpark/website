@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.01e516d1.chunk.css",
-    "main.js": "/static/js/main.16d92ed3.chunk.js",
-    "main.js.map": "/static/js/main.16d92ed3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.47301523.js",
-    "runtime-main.js.map": "/static/js/runtime-main.47301523.js.map",
-    "static/css/2.ff8bd605.chunk.css": "/static/css/2.ff8bd605.chunk.css",
-    "static/js/2.b16f866a.chunk.js": "/static/js/2.b16f866a.chunk.js",
-    "static/js/2.b16f866a.chunk.js.map": "/static/js/2.b16f866a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8b30325f2db21c42a3378b971d5ff3de.js": "/precache-manifest.8b30325f2db21c42a3378b971d5ff3de.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.ff8bd605.chunk.css.map": "/static/css/2.ff8bd605.chunk.css.map",
-    "static/css/main.01e516d1.chunk.css.map": "/static/css/main.01e516d1.chunk.css.map",
-    "static/media/resume.pdf": "/static/media/resume.dde59e89.pdf",
-    "static/media/index.scss": "/static/media/satangCropped.3cc3ebd5.jpg"
+    "main.css": "/~tparkeen/static/css/main.7b3c3b4e.chunk.css",
+    "main.js": "/~tparkeen/static/js/main.486cf632.chunk.js",
+    "main.js.map": "/~tparkeen/static/js/main.486cf632.chunk.js.map",
+    "runtime-main.js": "/~tparkeen/static/js/runtime-main.71744c36.js",
+    "runtime-main.js.map": "/~tparkeen/static/js/runtime-main.71744c36.js.map",
+    "static/css/2.ff8bd605.chunk.css": "/~tparkeen/static/css/2.ff8bd605.chunk.css",
+    "static/js/2.b1ecd181.chunk.js": "/~tparkeen/static/js/2.b1ecd181.chunk.js",
+    "static/js/2.b1ecd181.chunk.js.map": "/~tparkeen/static/js/2.b1ecd181.chunk.js.map",
+    "index.html": "/~tparkeen/index.html",
+    "precache-manifest.0f97c56219af8b811105c4e167692f4f.js": "/~tparkeen/precache-manifest.0f97c56219af8b811105c4e167692f4f.js",
+    "service-worker.js": "/~tparkeen/service-worker.js",
+    "static/css/2.ff8bd605.chunk.css.map": "/~tparkeen/static/css/2.ff8bd605.chunk.css.map",
+    "static/css/main.7b3c3b4e.chunk.css.map": "/~tparkeen/static/css/main.7b3c3b4e.chunk.css.map",
+    "static/media/resume.pdf": "/~tparkeen/static/media/resume.dde59e89.pdf",
+    "static/media/index.scss": "/~tparkeen/static/media/satangCropped.3cc3ebd5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.47301523.js",
+    "static/js/runtime-main.71744c36.js",
     "static/css/2.ff8bd605.chunk.css",
-    "static/js/2.b16f866a.chunk.js",
-    "static/css/main.01e516d1.chunk.css",
-    "static/js/main.16d92ed3.chunk.js"
+    "static/js/2.b1ecd181.chunk.js",
+    "static/css/main.7b3c3b4e.chunk.css",
+    "static/js/main.486cf632.chunk.js"
   ]
 }
