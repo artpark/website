@@ -37,7 +37,7 @@ const App = () => {
     <Router>
       <BreakpointProvider>
         <Layout className="layout">
-          <Layout>
+          <Layout className="content">
             <Header
               isSiderCollapse={isSiderCollapse}
               setSiderCollapse={setSiderCollapse}

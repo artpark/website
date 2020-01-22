@@ -1,0 +1,26 @@
+.projects-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: 'Gravitas One', cursive;
+    font-size: 72px;
+    color: $text1;
+  }
+  // .ant-row {
+  //   height: 50%;
+  //   .ant-col {
+  //     height: 100%;
+  //     display: flex;
+  //     justify-content: center;
+  //   }
+  // }
+  // .projects-card {
+  //   height: 100%;
+  //   width: 45%;
+  // }
+}

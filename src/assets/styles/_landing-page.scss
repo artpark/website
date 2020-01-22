@@ -1,4 +1,4 @@
-.landing-page-content {
+.content {
   background: $page1;
   padding-bottom: $footer-height;
 }
@@ -50,26 +50,5 @@
         }
       }
     }
-  }
-}
-
-.projects-container {
-  padding: 25px;
-  padding-bottom: 0px;
-
-  width: 100%;
-  height: 60%;
-  background: $page2;
-  .ant-row {
-    height: 50%;
-    .ant-col {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-    }
-  }
-  .projects-card {
-    height: 100%;
-    width: 45%;
   }
 }
