@@ -11,16 +11,10 @@
     font-size: 72px;
     color: $text1;
   }
-  // .ant-row {
-  //   height: 50%;
-  //   .ant-col {
-  //     height: 100%;
-  //     display: flex;
-  //     justify-content: center;
-  //   }
-  // }
-  // .projects-card {
-  //   height: 100%;
-  //   width: 45%;
-  // }
+
+  svg,
+  ant-timeline-item-head {
+    color: $text2;
+    border-color: $text2;
+  }
 }
