@@ -1,21 +1,22 @@
 import React from 'react'
-import { Col, Row, Layout } from 'antd'
+import { Col, Row } from 'antd'
+
+import portrait from '../../assets/images/satangCropped.jpg'
 
 const LandingPage = () => {
   return (
     <div className="banner-container">
-      <Row>
-        <Col span={10}>
-          <div className="image-container"></div>
+      <Row gutter={[75, 0]}>
+        <Col sm={24} md={10}>
+          <div className="image-container">
+            <img src={portrait} alt="portrait" className="portrait-image" />
+          </div>
         </Col>
-        <Col span={14}>
+        <Col sm={24} md={14}>
           <div className="banner-description-container">
             <div className="text-float-left">
               <h1>Hello!</h1>
-              <h2>
-                I'm <span> </span>
-                <span>Art Parkeenvincha</span>
-              </h2>
+              <h2>I'm Art Parkeenvincha</h2>
             </div>
           </div>
         </Col>

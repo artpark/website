@@ -19,6 +19,11 @@
   min-height: 100vh;
 }
 
+.content {
+  background: $page1;
+  padding-bottom: $footer-height;
+}
+
 .navbar-responsive {
   background: $page1;
   .ant-menu {

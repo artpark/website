@@ -20,7 +20,7 @@ const ResumePage = () => {
         <Icon type="download"></Icon>
       </a>
       <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={1} scale={0.5} />
+        <Page pageNumber={1} scale={0.5} renderAnnotationLayer={false} />
       </Document>
     </div>
   )

@@ -34,7 +34,7 @@ const App = () => {
   const [isSiderCollapse, setSiderCollapse] = useState(true)
 
   return (
-    <Router>
+    <Router basename="/~tparkeen">
       <BreakpointProvider>
         <Layout className="layout">
           <Layout className="content">
