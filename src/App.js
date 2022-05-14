@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Layout, Menu } from 'antd'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import { BreakpointProvider } from 'react-socks'
 
 import Header from './components/Header/Header'
@@ -34,7 +34,7 @@ const App = () => {
   const [isSiderCollapse, setSiderCollapse] = useState(true)
 
   return (
-    <Router basename="/~tparkeen">
+    <Router>
       <BreakpointProvider>
         <Layout className="layout">
           <Layout className="content">

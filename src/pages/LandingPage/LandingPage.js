@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'antd'
 
-import portrait from '../../assets/images/satangCropped.jpg'
+import portrait from '../../assets/images/self.jpg'
 
 const LandingPage = () => {
   return (
