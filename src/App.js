@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import { Layout, Menu } from 'antd'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Link,
+  Switch,
+} from 'react-router-dom'
 import { BreakpointProvider } from 'react-socks'
 
 import Header from './components/Header/Header'
@@ -44,7 +50,8 @@ const App = () => {
               navBarMenuItems={navBarMenuItems}
             />
             <Switch>
-              <Route exact path="/">
+              <Redirect exact from="/" to="/website" />
+              <Route exact path="/website">
                 <LandingPage />
               </Route>
               <Route path="/about">
