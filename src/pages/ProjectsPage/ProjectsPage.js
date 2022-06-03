@@ -31,7 +31,7 @@ const ProjectsPage = () => {
 
   return (
     <div className="projects-container">
-      <Row gutter={[25, 25]}>
+      {/* <Row gutter={[25, 25]}>
         <Col lg={8} md={24}>
           {projectCard({
             coverImg: cleanthisspace,
@@ -58,7 +58,8 @@ const ProjectsPage = () => {
               'A fault tolerant causal and eventually consistent key-value storage system, similar to Redis. Created for the class "distributed systems" (CMPS 128). Constructed using Python, Flask, and Docker.',
           })}
         </Col>
-      </Row>
+      </Row> */}
+      <h1>Coming soon!</h1>
     </div>
   )
 }
