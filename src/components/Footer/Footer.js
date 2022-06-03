@@ -4,7 +4,6 @@ import { Button, Layout } from 'antd'
 import links from '../../constants/links'
 
 const Footer = () => {
-  console.log(links)
   return (
     <Layout.Footer className="footer">
       <div className="footer-container">
